@@ -1,12 +1,13 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://cloud.shuia.tk/Qexo/2022/8/b496e71ca0b6687b71933e475154e276.jpeg
+cover: https://i.hllqk.cn/file/ba2e2c11235ffac046809.jpg
 date: '2022-08-11 18:33:08'
 tags: []
 title: hexo butterfly css
-updated: '2022-08-11 18:54:32'
----# hexo-butterfly-css
+updated: '2024-08-27T18:23:09.622+08:00'
+---
+# hexo-butterfly-css
 
 一键配置hexo主题butterfly的css，透明毛玻璃，好看的css
 !!!演示图有问题，真正效果请前往演示站点[hllqk blog - hllqk](https://hllqk.netlify.app/)
