@@ -430,7 +430,7 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: k
+background: url(https://i0.hdslb.com/bfs/new_dyn/41adaf74367cff29d22b482e2b5ad14c3537115075840154.png)
 
 # Show the footer background image (same as top_img)
 footer_bg: false
