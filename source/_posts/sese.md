@@ -1,11 +1,11 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i0.hdslb.com/bfs/new_dyn/141cf973aeb6f64896602246f50444ef3537115075840154.jpg
+cover: https://i.hllqk.cn/file/1ca9948fa5a6aa1f401ad.jpg
 date: '2022-08-11 12:55:55'
 tags: []
 title: 色色的拼音首字母缩写翻译
-updated: '2024-08-27T17:08:52.233+08:00'
+updated: '2024-08-27T18:22:04.828+08:00'
 ---
 # 色色的拼音首字母缩写翻译
 
