@@ -38,7 +38,7 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/hllqk || Github
+  fab fa-github: https://github.com/hllqkb || Github
   fas fa-envelope: mailto:hllqk@outlook.com || Email
   fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=3408006879&site=qq&menu=yes || qq
   fas fa-glass-cheers: https://space.bilibili.com/227561303?spm_id_from=333.1007.0.0 || Bilibili
@@ -127,7 +127,8 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover: 
-    - https://cloud.shuia.tk/img/99dd47ef-4933-4fd2-9e01-89542e62237d.jpeg
+    - https://i0.hdslb.com/bfs/new_dyn/26c35b326bf20d2ea23b9a576a8bce6d3537115075840154.jpg
+    #上面是404图片
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -138,7 +139,7 @@ error_img:
 error_404:
   enable: true
   subtitle: 'Page Not Found'
-  background: https://cloud.shuia.tk/img/2d4d2d2a-8502-4882-8359-cd8ce0d2b811.png
+  background: https://i0.hdslb.com/bfs/new_dyn/26c35b326bf20d2ea23b9a576a8bce6d3537115075840154.jpg
 
 post_meta:
   page: # Home Page
@@ -152,7 +153,7 @@ post_meta:
 
 # wordcount (字數統計)
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -429,7 +430,7 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: k
+background: url(https://i0.hdslb.com/bfs/new_dyn/26c35b326bf20d2ea23b9a576a8bce6d3537115075840154.jpg)
 
 # Show the footer background image (same as top_img)
 footer_bg: false
