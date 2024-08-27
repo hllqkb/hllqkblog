@@ -1,10 +1,11 @@
 ---
 abbrlink: ''
 categories: []
+cover: https://i.hllqk.cn/file/d90fb2d79afa81438f825.png
 date: '2024-08-27T18:35:12.815471+08:00'
 tags: []
 title: python调用另一个.py文件中的类和函数或直接运行另一个.py文件
-updated: '2024-08-27T18:35:13.638+08:00'
+updated: '2024-08-27T18:38:11.714+08:00'
 ---
 参考文章 [python调用另一个.py文件中的类和函数](https://www.cnblogs.com/AmyHu/p/10654500.html)
 
