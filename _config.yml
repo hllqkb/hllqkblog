@@ -4,16 +4,16 @@
 
 # Site
 title: hllqk blog
-subtitle: 'hllqk'
-description: '「其生若浮，其死若休」'
-keywords: Hexo
+subtitle:
+description: '美化的尽头是默认'
+keywords: Hexo,hllqk,blog,hllqk blog,tech,技术,博客
 author: hllqk
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://hllqk.netlify.app/
+url: https://iadx.eu.org/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -104,3 +104,11 @@ theme: hexo-theme-butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+bangumi:
+  enable: true 
+  vmid: 227561303
+  title: '追番列表'
+  quote: '生命不息，追番不止！'
+  show: 1
+  loading: '/img/bangumi-loading.gif'
