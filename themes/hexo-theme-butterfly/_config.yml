@@ -719,10 +719,10 @@ fragment_cache: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    -<img id="web_bg" src="https://i0.hdslb.com/bfs/album/001ee7bb41d9e0ede1af7329af0263c8fa2b22e6.png" data-type="photo" data-ll-status="loading" class="entered loading">
     - <meta name="referrer" content="no-referrer" />
   bottom:
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hllqk/mirror/css/hexo.css">
+    - <script src="https://cdn.jsdelivr.net/gh/hllqkb/mirror@master/js/hexo.js"></script>
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hllqkb/mirror/css/hexo.css">
     - <link href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/lxgwwenkai-regular.min.css" rel="stylesheet">
 
 # CDN
