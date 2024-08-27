@@ -430,7 +430,7 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: url('https://i0.hdslb.com/bfs/new_dyn/41adaf74367cff29d22b482e2b5ad14c3537115075840154.png')
+background: k
 
 # Show the footer background image (same as top_img)
 footer_bg: false
@@ -719,6 +719,7 @@ fragment_cache: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    -<img id="web_bg" src="https://i0.hdslb.com/bfs/album/001ee7bb41d9e0ede1af7329af0263c8fa2b22e6.png" data-type="photo" data-ll-status="loading" class="entered loading">
     - <meta name="referrer" content="no-referrer" />
   bottom:
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hllqk/mirror/css/hexo.css">
