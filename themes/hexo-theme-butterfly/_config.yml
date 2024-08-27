@@ -127,7 +127,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover: 
-    - https://i0.hdslb.com/bfs/new_dyn/26c35b326bf20d2ea23b9a576a8bce6d3537115075840154.jpg
+    - https://i.hllqk.cn/file/b03ee20a728d43f6105ee.jpg
     #上面是404图片
 
 # Replace Broken Images (替換無法顯示的圖片)
