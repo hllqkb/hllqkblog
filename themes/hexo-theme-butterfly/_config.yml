@@ -540,12 +540,7 @@ subtitle:
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
-  sub:
-    - Cannot take my eyes of you
-    - The greatest test of courage on earth is to bear defeat without losing heart
-    - To be both a speaker of words and a doer of deeds
-    - It is better to burn out than to fade away
-    - Life is like music. It must be composed by ear, feeling and instinct, not by rule
+  sub: - Cannot take my eyes of you
 
 # Loading Animation (加載動畫丑死了不要开)
 preloader: false
@@ -585,9 +580,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
