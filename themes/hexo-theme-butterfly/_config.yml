@@ -547,8 +547,8 @@ subtitle:
     - It is better to burn out than to fade away
     - Life is like music. It must be composed by ear, feeling and instinct, not by rule
 
-# Loading Animation (加載動畫)
-preloader: true
+# Loading Animation (加載動畫丑死了不要开)
+preloader: false
 
 # aside (側邊欄)
 # --------------------------------------
