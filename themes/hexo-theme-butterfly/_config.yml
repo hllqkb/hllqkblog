@@ -721,8 +721,8 @@ inject:
   head:
     - <meta name="referrer" content="no-referrer" />
   bottom:
-    #- <script src="https://cdn.jsdelivr.net/gh/hllqkb/mirror@master/js/hexo.js"></script>
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hllqkb/mirror/css/hexo.css">
+    #- <script src="https://gcore.jsdelivr.net/gh/hllqkb/mirror@master/js/hexo.js"></script>
+    - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/hllqkb/mirror/css/hexo.css">
     - <link href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/lxgwwenkai-regular.min.css" rel="stylesheet">
 
 # CDN
@@ -731,36 +731,36 @@ inject:
 CDN:
   # main
   main_css: /css/index.css
-  jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
+  jquery: https://gcore.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
 
   # comments
-  blueimp_md5: https://cdn.jsdelivr.net/npm/blueimp-md5/js/md5.min.js
-  gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
-  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+  blueimp_md5: https://gcore.jsdelivr.net/npm/blueimp-md5/js/md5.min.js
+  gitalk: https://gcore.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://gcore.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
+  valine: https://gcore.jsdelivr.net/npm/valine/dist/Valine.min.js
+  disqusjs: https://gcore.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://gcore.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
-  sharejs: https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
-  sharejs_css: https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
+  sharejs: https://gcore.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js
+  sharejs_css: https://gcore.jsdelivr.net/npm/social-share.js/dist/css/share.min.css
 
   # search
   local_search: /js/search/local-search.js
   algolia_js: /js/search/algolia.js
-  algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  algolia_search: https://gcore.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://gcore.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
   # math
-  mathjax: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  katex: https://cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css
-  katex_copytex: https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js
-  katex_copytex_css: https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css
-  mermaid: https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  mathjax: https://gcore.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  katex: https://gcore.jsdelivr.net/npm/katex@latest/dist/katex.min.css
+  katex_copytex: https://gcore.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js
+  katex_copytex_css: https://gcore.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css
+  mermaid: https://gcore.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 
   # count
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
@@ -770,22 +770,22 @@ CDN:
   canvas_ribbon_piao: /js/third-party/piao.js
   canvas_nest: /js/third-party/canvas-nest.js
 
-  lazyload: https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
-  instantpage: https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js
-  typed: https://cdn.jsdelivr.net/npm/typed.js
-  pangu: https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
+  lazyload: https://gcore.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js
+  instantpage: https://gcore.jsdelivr.net/npm/instant.page/instantpage.min.js
+  typed: https://gcore.jsdelivr.net/npm/typed.js
+  pangu: https://gcore.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js
 
   # photo
-  fancybox_css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
-  fancybox: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
-  medium_zoom: https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
+  fancybox_css: https://gcore.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css
+  fancybox: https://gcore.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js
+  medium_zoom: https://gcore.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js
 
   # snackbar
-  snackbar_css: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
-  snackbar: https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
+  snackbar_css: https://gcore.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css
+  snackbar: https://gcore.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js
 
   # effect
-  anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
+  anime: https://gcore.jsdelivr.net/npm/animejs@latest/anime.min.js
   activate_power_mode: /js/third-party/activate-power-mode.js
   fireworks: /js/third-party/fireworks.js
   click_heart: /js/third-party/click_heart.js
@@ -798,10 +798,10 @@ CDN:
   translate: /js/tw_cn.js
 
   # justifiedGallery
-  justifiedGallery_js: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
-  justifiedGallery_css: https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
+  justifiedGallery_js: https://gcore.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js
+  justifiedGallery_css: https://gcore.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css
 
   # aplayer
-  aplayer_css: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
-  aplayer_js: https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
-  meting_js: https://cdn.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js
+  aplayer_css: https://gcore.jsdelivr.net/npm/aplayer/dist/APlayer.min.css
+  aplayer_js: https://gcore.jsdelivr.net/npm/aplayer/dist/APlayer.min.js
+  meting_js: https://gcore.jsdelivr.net/npm/meting@1.2.0/dist/Meting.min.js
