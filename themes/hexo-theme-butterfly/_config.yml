@@ -521,7 +521,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: true
+  enable: false
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
@@ -541,7 +541,7 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - Cannot take my eyes of you
+    - Can't take my eyes of you
     - The greatest test of courage on earth is to bear defeat without losing heart
     - To be both a speaker of words and a doer of deeds
     - It is better to burn out than to fade away
