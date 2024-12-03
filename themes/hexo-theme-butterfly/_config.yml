@@ -127,7 +127,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover: 
-    - https://i.hllqk.cn/file/b03ee20a728d43f6105ee.jpg
+    - https://cdn.hllqk.cn/2024/12/1e2ed32189a6c13012472022caa15d90.jpg
     #上面是404图片
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -430,7 +430,7 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: url(https://i.hllqk.cn/file/f5380e493886a2a99b233-8c891b1c2c05c8f8cf.jpg)
+background: url(https://i0.hdslb.com/bfs/album/001ee7bb41d9e0ede1af7329af0263c8fa2b22e6.png)
 
 # Show the footer background image (same as top_img)
 footer_bg: false
