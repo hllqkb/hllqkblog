@@ -1,7 +1,7 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i.hllqk.cn/file/1e9161a8abe7e89009dc9.png
+cover: https://cdn.hllqk.cn/2024/12/55f1966b615b41a131db9e993009d61d.jpg
 date: '2022-08-10 09:55:56'
 tags:
 - hllqk
@@ -72,6 +72,5 @@ updated: '2024-08-27T18:20:08.254+08:00'
 
 图片:
 
-![https://cloud.shuia.tk/Qexo/2022/8/ee6c8423f359f7d162c09b607d61111b.jpg](https://cloud.shuia.tk/Qexo/2022/8/ee6c8423f359f7d162c09b607d61111b.jpg)
 
 end

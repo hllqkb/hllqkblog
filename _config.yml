@@ -4,8 +4,8 @@
 
 # Site
 title: hllqk blog
-subtitle: 天诺友情天亦老，人间正道是沧桑
-description: '美化的尽头是默认'
+subtitle:
+description: '天若有情天亦老，人间正道是沧桑'
 keywords: Hexo,hllqk,blog,hllqk blog,tech,技术,博客
 author: hllqk
 language: zh-CN
@@ -104,7 +104,12 @@ theme: hexo-theme-butterfly
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
-
+#搜索设置
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 bangumi:
   enable: true 
   vmid: 227561303
@@ -112,3 +117,28 @@ bangumi:
   quote: '生命不息，追番不止！'
   show: 1
   loading: '/img/bangumi-loading.gif'
+
+
+# hexo-neat
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
+  enable: true
+  exclude:
+# 压缩css
+neat_css:
+  enable: false
+  exclude:
+    - '**/*.min.css'
+    - '**/index.css'
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'

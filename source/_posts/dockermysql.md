@@ -1,7 +1,7 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i.hllqk.cn/file/66cf49c4dfb1ecab775f5-be1f1781867b49cbda.png
+cover: https://cdn.hllqk.cn/2024/12/cef7889bbb7f323cd057404b126bded6.jpg
 date: '2024-11-26T16:09:47.256212+08:00'
 tags: []
 title: windows docker里安装并使用mysql（内含mysql主从搭建）

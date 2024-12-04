@@ -1,7 +1,7 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i.hllqk.cn/file/d37fae34e3c4db605935b-47fe9174be60678b41.jpg
+cover: https://cdn.hllqk.cn/2024/12/7e69e81090cd9d6749ae281cdd07b501.png
 date: '2024-11-26T17:38:51.016099+08:00'
 tags: []
 title: VMware 安装配置 Ubuntu（最新版、超详细）

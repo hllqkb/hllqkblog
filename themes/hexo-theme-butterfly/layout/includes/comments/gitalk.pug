@@ -1,12 +1,8 @@
-link(href='https://unpkg.com/artalk@2.3.4/dist/Artalk.css' rel='stylesheet')
-script(src='https://unpkg.com/artalk@2.3.4/dist/Artalk.js')
+link(href='https://unpkg.com/@waline/client@v3/dist/waline.css' rel='stylesheet')
+script(src='https://unpkg.com/@waline/client@v3/dist/waline.js')
 #Comments
 script.
-  new Artalk({
-  emoticons: "https://cdn.jsdelivr.net/gh/outlookthe/chinese-artalk-emoji@main/grps/default.json",
-  el:        '#Comments',              // 绑定元素的 Selector
-  pageKey:   '',                // 固定链接 (留空自动获取)
-  pageTitle: '', // 页面标题 (留空自动获取)
-  server:    'https://talk.shuia.tk/',  // 后端地址
-  site:      '水啊的博客',           // 你的站点名
-  })
+ Waline.init({
+  el: '#vcomments',
+   serverURL: 'https://talk.hllqk.cn/'
+   })

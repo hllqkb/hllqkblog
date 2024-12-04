@@ -1,7 +1,7 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i.hllqk.cn/file/1ca9948fa5a6aa1f401ad.jpg
+cover: https://cdn.hllqk.cn/2024/12/7e52faa337f69847acfb663ca2e2af48.jpeg
 date: '2022-08-11 12:55:55'
 tags: []
 title: 色色的拼音首字母缩写翻译

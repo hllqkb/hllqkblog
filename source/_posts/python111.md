@@ -1,7 +1,7 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i.hllqk.cn/file/d90fb2d79afa81438f825.png
+cover: https://cdn.hllqk.cn/2024/12/fa3e78819de038c741076b8fddc6d160.jpg
 date: '2024-08-27T18:35:12.815471+08:00'
 tags: []
 title: python调用另一个.py文件中的类和函数或直接运行另一个.py文件

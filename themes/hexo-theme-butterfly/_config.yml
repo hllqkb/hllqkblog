@@ -15,7 +15,7 @@ menu:
     - 音乐 || /music/ || fas fa-music
     - 番剧 || /bangumis/ || fas fa-video
   友情链接: /link/ || fas fa-link
-  留言板: /comment/ || far fa-comment
+  笔记: /comment/ || far fa-comment
   网站: /websites/ || fas fa-server
   关于: /about/ || fas fa-heart
 
@@ -40,7 +40,7 @@ copy:
 social:
   fab fa-github: https://github.com/hllqkb || Github
   fas fa-envelope: mailto:hllqk@outlook.com || Email
-  fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=3408006879&site=qq&menu=yes || qq
+  fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=3642488570&site=qq&menu=yes || qq
   fas fa-glass-cheers: https://space.bilibili.com/227561303?spm_id_from=333.1007.0.0 || Bilibili
 
 # search (搜索)
@@ -59,10 +59,14 @@ algolia_search:
 
 # Local search不要开这个
 local_search:
-  enable: false
-  labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}" # if there are no result
+  enable: true
+  # if auto, trigger search by changing input
+  # if manual, trigger search by pressing enter key or search button
+  trigger: auto
+  # show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # unescape html strings to the readable one
+  unescape: false
 
 # Math (數學)
 # --------------------------------------
@@ -94,10 +98,10 @@ avatar:
   effect: false
 
 # the banner image of home page
-index_img: 
+index_img:
 
 # if the banner of page not setting,it will show the top_img
-default_top_img: 
+default_top_img:
 
 # the banner image of archive page
 archive_img:
@@ -126,7 +130,7 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover: 
+  default_cover:
     - https://cdn.hllqk.cn/2024/12/1e2ed32189a6c13012472022caa15d90.jpg
     #上面是404图片
 
@@ -171,9 +175,9 @@ index_post_content:
 
 # toc (目錄)
 toc:
-  enable: false
+  enable: true
   number: true
-  auto_open: true # auto open the sidebar
+  auto_open: false # auto open the sidebar
 
 post_copyright:
   enable: true
@@ -259,19 +263,18 @@ disqusjs:
 
 # livere(來必力)
 # https://www.livere.com/
-livere:
-  enable: false
-  uid:
+
 
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
 
 # valine
 # https://valine.js.org
 valine:
-  enable: false # if you want use valine,please set this value is true
+  enable: true # if you want use valine,please set this value is true
+
 
 # utterances
 # https://utteranc.es/
@@ -334,7 +337,7 @@ gitter:
 
 since: 2020
 
-footer_custom_text:
+footer_custom_text: <a href="https://icp.gov.moe/?keyword=20243333" target="_blank"><img loading="lazy" src="https://cdn.hllqk.cn/2024/12/3a371e95a73da5a2bdfd1b209c553f0d.webp" width="20px" height="20px" alt="萌国ICP备案"> 萌ICP备 20243333号</a>
 
 footer_copyright: true
 
@@ -403,7 +406,7 @@ theme_color:
    paginator: "#49B1F5"
    button_hover: "#FF7242"
    text_selection: "#49B1F5"
-   link_color: "#99a9bf"
+   link_color: "#2065c4"
    meta_color: "#858585"
    hr_color: "#A4D8FA"
    code_foreground: "#F47466"
@@ -430,7 +433,7 @@ tag_ui: # 留空或 index
 # The formal of color: '#49B202'
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
 # White color will be shown as default
-background: url(https://cdn.hllqk.cn/2024/12/13fad98a3a25264f44f4ef9447c152dd.png)
+background: url(https://cdn.hllqk.cn/2024/12/444d8845b413398cd124d4f03a468a8e.png)
 
 # Show the footer background image (same as top_img)
 footer_bg: false
@@ -510,7 +513,7 @@ font:
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
-  font_link: 
+  font_link:
   font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', Microsoft YaHei', sans-serif
 
 # The setting of divider icon (水平分隔線圖標設置)
@@ -520,16 +523,17 @@ hr_icon:
   icon-top:
 
 # the subtitle on homepage (主頁subtitle)
+
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
-  effect: true
+  effect: false
   # loop (循環打字)
-  loop: false
+  loop: true
   # source調用第三方服務
-  #source: true 
+  #source: false
   #關閉調用
-  #source: 1  
+  source: 1
   #調用搏天api的隨機語錄（簡體） https://api.btstu.cn/
   # source: 2  調用一言網的一句話（簡體） https://hitokoto.cn/
   #source: 3  #調用一句網（簡體） http://yijuzhan.com/
@@ -541,11 +545,7 @@ subtitle:
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
   sub:
-    - Can't take my eyes of you
-    - The greatest test of courage on earth is to bear defeat without losing heart
-    - To be both a speaker of words and a doer of deeds
-    - It is better to burn out than to fade away
-    - Life is like music. It must be composed by ear, feeling and instinct, not by rule
+  - Can't take my eyes of you
 
 # Loading Animation (加載動畫丑死了不要开)
 preloader: false
@@ -585,9 +585,9 @@ aside:
 # busuanzi count for PV / UV in site
 # 訪問人數
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -723,8 +723,9 @@ inject:
   head:
     - <meta name="referrer" content="no-referrer" />
   bottom:
+    - <script src="/js/sun_moon.js" async></script>
     #- <script src="https://gcore.jsdelivr.net/gh/hllqkb/mirror@master/js/hexo.js"></script>
-    - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/hllqkb/mirror/css/hexo.css">
+    - <link rel="stylesheet" href="https://gcore.jsdelivr.net/gh/hllqkb/mirror@master/css/hexo.css">
     - <link href="https://cdn.bootcdn.net/ajax/libs/lxgw-wenkai-webfont/1.6.0/lxgwwenkai-regular.min.css" rel="stylesheet">
 
 # CDN
@@ -741,7 +742,7 @@ CDN:
   blueimp_md5: https://gcore.jsdelivr.net/npm/blueimp-md5/js/md5.min.js
   gitalk: https://gcore.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
   gitalk_css: https://gcore.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://gcore.jsdelivr.net/npm/valine/dist/Valine.min.js
+  valine: https://unpkg.com/@waline/client@3.4.1/dist/waline.js
   disqusjs: https://gcore.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://gcore.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
@@ -765,7 +766,7 @@ CDN:
   mermaid: https://gcore.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 
   # count
-  busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+  busuanzi: //gcore.jsdelivr.net/gh/hllqkb/mirror@master/css/busuanzi.pure.mini.js
 
   # background effect
   canvas_ribbon: /js/third-party/canvas-ribbon.js

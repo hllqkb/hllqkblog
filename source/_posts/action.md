@@ -1,7 +1,7 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i.hllqk.cn/file/075a443594c42b5fd6c2b-46c7e69a9c27612fbc.png
+cover: https://cdn.hllqk.cn/2024/12/b8686f2e4137695bb152b35133dade0b.png
 date: '2024-11-26T17:27:26.645497+08:00'
 tags: []
 title: 基于Github action的python每日邮件提醒

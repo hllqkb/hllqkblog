@@ -6,21 +6,31 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "s": "del db.json && hexo server"
   },
   "hexo": {
-    "version": "5.0.0"
+    "version": "7.3.0"
   },
   "dependencies": {
-    "hexo": "^5.0.0",
-    "hexo-generator-archive": "^1.0.0",
-    "hexo-generator-category": "^1.0.0",
-    "hexo-generator-index": "^1.0.0",
-    "hexo-generator-tag": "^1.0.0",
-    "hexo-renderer-ejs": "^1.0.0",
-    "hexo-renderer-marked": "^3.0.0",
-    "hexo-renderer-pug": "^1.0.0",
-    "hexo-renderer-stylus": "^1.1.0",
-    "hexo-server": "^1.0.0"
+    "hexo": "^7.3.0",
+    "hexo-bilibili-bangumi": "^1.10.7",
+    "hexo-browsersync": "^0.3.0",
+    "hexo-generator-archive": "^2.0.0",
+    "hexo-generator-category": "^2.0.0",
+    "hexo-generator-index": "^4.0.0",
+    "hexo-generator-searchdb": "^1.4.1",
+    "hexo-generator-tag": "^2.0.0",
+    "hexo-neat": "^1.0.9",
+    "hexo-renderer-ejs": "^2.0.0",
+    "hexo-renderer-marked": "^6.3.0",
+    "hexo-renderer-pug": "^3.0.0",
+    "hexo-renderer-stylus": "^3.0.1",
+    "hexo-server": "^3.0.0",
+    "markdown-it-named-headings": "^1.1.0",
+    "typed.js": "^2.1.0",
+    "typewriter-effect": "^2.21.0"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "^11.1.0"
   }
 }

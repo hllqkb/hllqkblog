@@ -1,7 +1,7 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i.hllqk.cn/file/b22a70713f5be3fd260a6.png
+cover: https://cdn.hllqk.cn/2024/12/275d32f0067a605b0f2e63ba16def45c.png
 date: '2022-08-11 18:14:40'
 tags: []
 title: Good的网站合集

@@ -1,7 +1,7 @@
 ---
 abbrlink: ''
 categories: []
-cover: https://i.hllqk.cn/file/3d9f583777d7ffa000065-550af565e78dba39ee.png
+cover: https://cdn.hllqk.cn/2024/12/0b41c75b4365dd677a887f1848012b95.jpg
 date: '2024-11-26T17:24:03.621684+08:00'
 tags: []
 title: VMware 主机(宿主)电脑访问虚拟机的服务---配置网络连接方式

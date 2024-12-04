@@ -2,7 +2,7 @@
 abbrlink: ''
 categories:
 - hexo
-cover: https://i.hllqk.cn/file/67e2369f99f2e75bb7e61.jpg
+cover: https://cdn.hllqk.cn/2024/12/cdc4f1fedd9d94722d1e3899e6796719.jpg
 date: '2022-08-10 20:41:59'
 tags:
 - game
